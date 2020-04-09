@@ -44,25 +44,25 @@ $(document).ready(function() {
     infinite: true,
     autoplay: true
   });
-  const href = window.location.href.split('/');
-  const page = href[href.length-1];
-  if (page === 'index.php') {
-    console.log('home');
-    document.querySelector('.home').classList.add('active');
-  }
-  else if (page === 'cruise.php') {
-    document.querySelector('.cruise').classList.add('active');
-  }
-  else if (page === 'book.php') {
-    document.querySelector('.book').classList.add('active');
-  }
-  else if (page === 'agent1.php') {
-    document.querySelector('.agentMain').classList.add('active');
-  }
-  else if (page === 'agent2.php') {
-    document.querySelector('.agentMain').classList.add('active');
-  }
 });
+const href = window.location.href.split('/');
+const page = href[href.length-1];
+if (page === 'index.php') {
+  console.log('home');
+  document.querySelector('.home').classList.add('active');
+}
+else if (page === 'cruise.php') {
+  document.querySelector('.cruise').classList.add('active');
+}
+else if (page === 'book.php') {
+  document.querySelector('.book').classList.add('active');
+}
+else if (page === 'agent1.php') {
+  document.querySelector('.agentMain').classList.add('active');
+}
+else if (page === 'agent2.php') {
+  document.querySelector('.agentMain').classList.add('active');
+}
 </script>
 <script type="application/ld+json">
 {
