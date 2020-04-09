@@ -46,8 +46,8 @@ $(document).ready(function() {
   });
   const href = window.location.href.split('/');
   const page = href[href.length-1];
-  console.log(page);
   if (page === 'index.php') {
+    console.log('home');
     document.querySelector('.home').classList.add('active');
   }
   else if (page === 'cruise.php') {
