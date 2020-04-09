@@ -48,20 +48,19 @@ $(document).ready(function() {
 const href = window.location.href.split('/');
 const page = href[href.length-1];
 if (page === 'index.php') {
-  console.log('home');
-  document.querySelector('.home').classList.add('active');
+  document.querySelector('.home').classList.add('current-menu-item');
 }
 else if (page === 'cruise.php') {
-  document.querySelector('.cruise').classList.add('active');
+  document.querySelector('.cruise').classList.add('current-menu-item');
 }
 else if (page === 'book.php') {
-  document.querySelector('.book').classList.add('active');
+  document.querySelector('.book').classList.add('current-menu-item');
 }
 else if (page === 'agent1.php') {
-  document.querySelector('.agentMain').classList.add('active');
+  document.querySelector('.agentMain').classList.add('current-menu-item');
 }
 else if (page === 'agent2.php') {
-  document.querySelector('.agentMain').classList.add('active');
+  document.querySelector('.agentMain').classList.add('current-menu-item');
 }
 </script>
 <script type="application/ld+json">
