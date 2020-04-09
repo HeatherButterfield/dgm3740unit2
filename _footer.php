@@ -45,7 +45,7 @@ $(document).ready(function() {
     autoplay: true
   });
   document.querySelector('.navItem').onclick = function(event) {
-    console.log(event.target);
+    console.log("hey");
     const home = document.querySelector('.home');
     const agent = document.querySelector('.agent');
     const agentMain = document.querySelector('.agentMain');
