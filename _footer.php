@@ -44,7 +44,7 @@ $(document).ready(function() {
     infinite: true,
     autoplay: true
   });
-  document.querySelector('.navItem').onclick = function(event) {
+  document.querySelector('.navItem').addEventListener('click', function(event) {
     console.log("hey");
     const home = document.querySelector('.home');
     const agent = document.querySelector('.agent');
@@ -76,7 +76,7 @@ $(document).ready(function() {
       book.classList.remove('active');
       cruise.classList.add('active');
     }
-  };
+  });
 });
 </script>
 <script type="application/ld+json">
