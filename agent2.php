@@ -1,8 +1,8 @@
-<?php $pageTitle='Agent'; include '_header.php'; ?>
+<?php $pageTitle='Kelly Green'; include '_header.php'; ?>
 
 <div class="mainWrapper">
   <main>
-    <h2>Agent</h2>
+    <h2>Kelly Green</h2>
 
 
   </main>

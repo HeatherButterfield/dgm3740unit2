@@ -26,11 +26,10 @@
       <ul id="primaryNav">
           <li><a href="index.php">Home</a></li>
           <li class="current-menu-item"><a href="cruise.php">Cruises</a></li>
-          <li class="parent"><a href="agent.php">Agents</a>
+          <li class="parent"><a href="#">Agents</a>
               <ul>
-                  <li><a href="#">Here</a></li>
-                  <li><a href="#">There</a></li>
-                  <li><a href="#">Everywhere</a></li>
+                  <li><a href="agent1.php">Max Donoghue</a></li>
+                  <li><a href="agent2.php">Kelly Green</a></li>
               </ul>
           </li>
           <li><a href="book.php">Book</a></li>
