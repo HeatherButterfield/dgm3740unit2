@@ -24,16 +24,16 @@
     <nav class="clearfix">
       <button id="hamburgerBtn"><span><i>&equiv;</i>OPEN</span> <span><i>&otimes;</i>CLOSE</span></button>
       <ul id="primaryNav">
-          <li><a href="#">Home</a></li>
-          <li class="current-menu-item"><a href="#">Cruises</a></li>
-          <li class="parent"><a href="#">Agents</a>
+          <li><a href="index.php">Home</a></li>
+          <li class="current-menu-item"><a href="cruise.php">Cruises</a></li>
+          <li class="parent"><a href="agent.php">Agents</a>
               <ul>
                   <li><a href="#">Here</a></li>
                   <li><a href="#">There</a></li>
                   <li><a href="#">Everywhere</a></li>
               </ul>
           </li>
-          <li><a href="#">Book</a></li>
+          <li><a href="book.php">Book</a></li>
       </ul>
       <div class="searchBar"><input type="search" id="searchInput" value="Search..."><i class="fas fa-search"></i></div>
     </nav>
