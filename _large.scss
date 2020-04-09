@@ -77,7 +77,7 @@ nav {
 	}
 
 // darkens the anchor of the current-menu-item
-	.active {
+	ul li.active a {
     color: #67c3a8;
     background-color: white;
   }
