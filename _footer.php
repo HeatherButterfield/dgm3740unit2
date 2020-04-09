@@ -44,6 +44,10 @@ $(document).ready(function() {
     infinite: true,
     autoplay: true
   });
+  document.querySelector('nav ul li').onclick(function(event) {
+    document.querySelectorAll('nav ul li').classList.remove('current-menu-item');
+    event.target.classList.push('current-menu-item');
+  });
 });
 </script>
 <script type="application/ld+json">
