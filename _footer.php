@@ -44,39 +44,12 @@ $(document).ready(function() {
     infinite: true,
     autoplay: true
   });
-  document.querySelector('.navItem').addEventListener('click', function(event) {
-    console.log("hey");
-    const home = document.querySelector('.home');
-    const agent = document.querySelector('.agent');
-    const agentMain = document.querySelector('.agentMain');
-    const book = document.querySelector('.book');
-    const cruise = document.querySelector('.cruise');
-
-    if (event.target === home) {
-      home.classList.add('active');
-      agentMain.classList.remove('active');
-      book.classList.remove('active');
-      cruise.classList.remove('active');
-    }
-    else if (event.target === agent) {
-      home.classList.remove('active');
-      agentMain.classList.add('active');
-      book.classList.remove('active');
-      cruise.classList.remove('active');
-    }
-    else if (event.target === book) {
-      home.classList.remove('active');
-      agentMain.classList.remove('active');
-      book.classList.add('active');
-      cruise.classList.remove('active');
-    }
-    else if (event.target === cruise) {
-      home.classList.remove('active');
-      agentMain.classList.remove('active');
-      book.classList.remove('active');
-      cruise.classList.add('active');
-    }
-  });
+  const href = window.location.href.split('/');
+  const page = href[href.length-1];
+  console.log(page);
+  if (page === 'index.html') {
+    document.querySelector('.home').classList.add('active');
+  }
 });
 </script>
 <script type="application/ld+json">
