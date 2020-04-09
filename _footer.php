@@ -44,9 +44,37 @@ $(document).ready(function() {
     infinite: true,
     autoplay: true
   });
-  document.querySelector('nav ul li').onclick = function(event) {
-    document.querySelectorAll('nav ul li').classList.remove('current-menu-item');
-    event.target.classList.add('current-menu-item');
+  document.querySelector('.navItem').onclick = function(event) {
+    const home = document.querySelector('.home');
+    const agent = document.querySelector('.agent');
+    const agentMain = document.querySelector('.agentMain');
+    const book = document.querySelector('.book');
+    const cruise = document.querySelector('.cruise');
+
+    if (event.target === home) {
+      home.classList.add('active');
+      agentMain.classList.remove('active');
+      book.classList.remove('active');
+      cruise.classList.remove('active');
+    }
+    else if (event.target === agent) {
+      home.classList.remove('active');
+      agentMain.classList.add('active');
+      book.classList.remove('active');
+      cruise.classList.remove('active');
+    }
+    else if (event.target === book) {
+      home.classList.remove('active');
+      agentMain.classList.remove('active');
+      book.classList.add('active');
+      cruise.classList.remove('active');
+    }
+    else if (event.target === cruise) {
+      home.classList.remove('active');
+      agentMain.classList.remove('active');
+      book.classList.remove('active');
+      cruise.classList.add('active');
+    }
   };
 });
 </script>
