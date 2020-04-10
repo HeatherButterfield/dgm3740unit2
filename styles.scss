@@ -3,8 +3,8 @@
 @import "small";
 @import "mobileMenu";
 
-@import "../slick/slick-theme";
-@import "../slick/slick";
+@import "./slick/slick-theme";
+@import "./slick/slick";
 
 @media only screen and (min-width: 35rem) {
     @import "medium";
