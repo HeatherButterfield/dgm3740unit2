@@ -12,7 +12,7 @@
         <h3>Newsletter</h3>
         <p>Subscribe to our newsletter to stay up to date with our amazing deals</p>
         <form>
-          <input type="email" name="email" value="Email" required>
+          <input type="email" name="email" required>
           <button type="submit" name="submit">Submit</button>
         </form>
       </div>
