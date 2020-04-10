@@ -872,6 +872,11 @@ footer a {
     padding: 10px;
     width: 300px; }
 
+  form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column; }
+
   /*----------- HEADER --------------*/
   /*  ----------------------- NAVIGATION --------------------------- */
   .navWrapper {
