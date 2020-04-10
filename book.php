@@ -5,17 +5,17 @@
     <h2>Book a Cruise</h2>
     <form>
       <label for="name">Full Name</label>
-      <input type="text" name="name" value="name" required>
+      <input type="text" name="name" required>
       <label for="address">Address</label>
-      <input type="text" name="address" value="address">
+      <input type="text" name="address">
       <label for="city">City</label>
-      <input type="text" name="city" value="city">
+      <input type="text" name="city">
       <label for="zip">Zipcode</label>
-      <input type="text" name="zip" value="zip">
+      <input type="text" name="zip">
       <label for="phone">Phone Number</label>
-      <input type="text" name="ohone" value="phone">
+      <input type="text" name="ohone">
       <label for="email">Email Address</label>
-      <input type="email" name="email" value="email" required>
+      <input type="email" name="email" required>
       <button type="submit" name="submit">Book My Cruise</button>
     </form>
 

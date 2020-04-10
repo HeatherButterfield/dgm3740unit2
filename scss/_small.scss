@@ -17,9 +17,11 @@ a {
   color: #2f3c59;
 }
 input {
+  margin: 5px;
   padding: 10px;
   width: 300px;
   border-radius: 10px;
+  border: 1px solid #ccc;
 }
 button {
   background-color: $menuColor;
@@ -27,6 +29,11 @@ button {
   border-radius: 10px;
   padding: 10px;
   width: 300px;
+  border-style: none;
+  margin: 5px;
+}
+label {
+  margin: 5px;
 }
 form {
   display: flex;
