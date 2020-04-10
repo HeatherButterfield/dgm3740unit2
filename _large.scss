@@ -7,7 +7,18 @@ $menuColor: #67c3a8;
 $menuTextColor: white;
 
 /*----------- BODY --------------*/
-
+input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+button {
+  background-color: $menuColor;
+  color: $menuTextColor;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
 
 
 /*----------- HEADER --------------*/
