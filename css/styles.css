@@ -349,7 +349,8 @@ form {
 
 .agentPhoto {
   height: 400px;
-  float: right; }
+  float: right;
+  margin: 20px; }
 
 /*----------- HEADER --------------*/
 .headerWrapper {

@@ -2,7 +2,7 @@
 
 <div class="mainWrapper">
   <main>
-    <img class="agentPhoto" src="./images/agent2.jpg">
+    <img class="agentPhoto" src="./images/agent1.jpg">
     <h2>Max Donoghue</h2>
     <p><b>Phone:</b></p>
     <p>1-800-555-1234</p>
