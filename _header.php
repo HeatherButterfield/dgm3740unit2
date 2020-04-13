@@ -25,7 +25,7 @@
       <button id="hamburgerBtn"><span><i>&equiv;</i>OPEN</span> <span><i>&otimes;</i>CLOSE</span></button>
       <ul id="primaryNav">
           <li class="navItem home"><a href="index.php">Home</a></li>
-          <li class="navItem cruise active"><a href="cruise.php">Cruises</a></li>
+          <li class="navItem cruise"><a href="cruise.php">Cruises</a></li>
           <li class="parent agentMain"><a href="#">Agents</a>
               <ul>
                   <li class="navItem agent"><a href="agent1.php">Max Donoghue</a></li>

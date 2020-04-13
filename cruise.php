@@ -5,7 +5,7 @@
     <h2>Cruises</h2>
 
     <div class="cruises">
-      <div class="cruise">
+      <div class="cruiseSection">
         <img src="./images/slider1_sm.jpg"></img>
         <div class="cruiseDesc">
           <h3>Caribbean Cruises starting at $400</h3>
@@ -14,7 +14,7 @@
         </div>
       <div>
 
-      <div class="cruise">
+      <div class="cruiseSection">
         <img src="./images/slider2_sm.jpg"></img>
         <div class="cruiseDesc">
           <h3>Bahamas Cruises starting at $600</h3>
@@ -23,7 +23,7 @@
         </div>
       <div>
 
-      <div class="cruise">
+      <div class="cruiseSection">
         <img src="./images/slider3_sm.jpg"></img>
         <div class="cruiseDesc">
           <h3>Hawaii Cruises starting at $800</h3>
@@ -32,7 +32,7 @@
         </div>
       <div>
 
-      <div class="cruise">
+      <div class="cruiseSection">
         <img src="./images/slider4_sm.jpg"></img>
         <div class="cruiseDesc">
           <h3>Mexico Cruises starting at $200</h3>
