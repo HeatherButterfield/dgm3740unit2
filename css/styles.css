@@ -352,6 +352,9 @@ form {
   float: right;
   margin: 20px; }
 
+.cruises {
+  display: flex; }
+
 .cruise {
   display: flex;
   justify-content: space-between;
