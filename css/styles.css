@@ -353,7 +353,8 @@ form {
   margin: 20px; }
 
 .cruises {
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
 
 .cruise {
   display: flex;

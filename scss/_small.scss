@@ -47,6 +47,7 @@ form {
 }
 .cruises {
   display: flex;
+  flex-direction: column;
 }
 .cruise {
   display: flex;
