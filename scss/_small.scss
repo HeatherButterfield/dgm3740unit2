@@ -48,7 +48,6 @@ form {
 .cruises {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 .cruise {
   display: flex;
@@ -60,6 +59,7 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 600px;
 }
 
 /*----------- HEADER --------------*/

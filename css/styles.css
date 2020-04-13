@@ -354,8 +354,7 @@ form {
 
 .cruises {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; }
+  flex-direction: column; }
 
 .cruise {
   display: flex;
@@ -366,7 +365,8 @@ form {
 .cruiseDesc {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  max-width: 600px; }
 
 /*----------- HEADER --------------*/
 .headerWrapper {
