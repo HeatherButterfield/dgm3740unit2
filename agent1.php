@@ -2,6 +2,7 @@
 
 <div class="mainWrapper">
   <main>
+    <img class="agentPhoto" src="./images/agent2.jpg">
     <h2>Max Donoghue</h2>
     <p><b>Phone:</b></p>
     <p>1-800-555-1234</p>
@@ -20,7 +21,6 @@
     <p>-The Smiths</p>
     <p>"Thanks for your patience and efficiency. Let's do it again sometime very soon!"</p>
     <p>-Jane and John Westagar</p>
-    <img class="agentPhoto" src="./images/agent2.jpg">
   </main>
 </div>
 
