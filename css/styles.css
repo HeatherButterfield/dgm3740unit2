@@ -352,6 +352,17 @@ form {
   float: right;
   margin: 20px; }
 
+.cruise {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.cruiseDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
 /*----------- HEADER --------------*/
 .headerWrapper {
   background-color: white; }

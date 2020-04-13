@@ -72,10 +72,10 @@
       <input type="email" name="email" required>
       <label for="cruise">Cruise Selection</label>
       <select id="cruise">
-        <option value="bronze">Bronze</option>
-        <option value="silver">Silver</option>
-        <option value="gold">Gold</option>
-        <option value="platinum">Platinum</option>
+        <option value="caribbean">Caribbean</option>
+        <option value="bahamas">Bahamas</option>
+        <option value="hawaii">Hawaii</option>
+        <option value="mexico">Mexico</option>
       </select>
       <button type="submit" name="submit">Book My Cruise</button>
     </form>
