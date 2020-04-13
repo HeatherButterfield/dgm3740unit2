@@ -52,6 +52,7 @@ form {
 .cruise {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 10px;
   margin-bottom: 10px;
 }
